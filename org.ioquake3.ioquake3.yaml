@@ -1,6 +1,6 @@
 app-id: org.ioquake3.ioquake3
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: ioquake3
 finish-args:
