@@ -1,4 +1,4 @@
-app-id: org.ioquake3.ioquake3
+id: org.ioquake3.ioquake3
 runtime: org.freedesktop.Platform
 runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
@@ -40,7 +40,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/ioquake/ioq3.git
-        commit: a1fe522d3db21242e214624cb4ab722774b8372c
+        commit: ab18167a09415e9e9f4859c197bad72ec39807d5
       - type: patch
         path: ioquake3_appstream.patch
       # ioquake3 launcher script that:
