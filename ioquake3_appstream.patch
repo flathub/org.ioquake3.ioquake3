@@ -2,15 +2,6 @@ diff --git a/misc/setup/org.ioquake3.ioquake3.metainfo.xml b/misc/setup/org.ioqu
 index a416464c..3ae2f4b8 100644
 --- a/misc/setup/org.ioquake3.ioquake3.metainfo.xml
 +++ b/misc/setup/org.ioquake3.ioquake3.metainfo.xml
-@@ -1,7 +1,7 @@
- <?xml version="1.0" encoding="UTF-8"?>
- <component type="desktop-application">
-   <id>org.ioquake3.ioquake3</id>
--  <launchable type="desktop-id">ioquake3.desktop</launchable>
-+  <launchable type="desktop-id">org.ioquake3.ioquake3.desktop</launchable>
-   <metadata_license>CC0-1.0</metadata_license>
-   <project_license>GPL-2.0-or-later</project_license>
-   <name>ioquake3</name>
 @@ -19,6 +19,21 @@
    <url type="bugtracker">https://github.com/ioquake/ioq3/issues</url>
    <url type="vcs-browser">https://github.com/ioquake/ioq3</url>
