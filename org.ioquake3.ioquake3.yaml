@@ -11,7 +11,9 @@ finish-args:
   - --socket=fallback-x11
   - --share=ipc
   - --share=network
-  - --device=all
+  - --device=dri
+  - --device=input
+  - --device-if=all:!has-input-device
 
 modules:
   - name: ioquake3
